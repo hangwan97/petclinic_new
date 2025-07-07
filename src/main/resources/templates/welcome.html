@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title th:text="#{welcome.title}">Welcome to PetClinic</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="/" th:text="#{welcome.title}">PetClinic</a>
+        <div class="navbar-nav">
+            <a class="nav-link" href="/" th:text="#{navigation.home}">Home</a>
+            <a class="nav-link" href="/owners" th:text="#{navigation.find.owners}">Find owners</a>
+            <a class="nav-link" href="/vets" th:text="#{navigation.veterinarians}">Veterinarians</a>
+            <a class="nav-link" href="/help" th:text="#{navigation.help}">Help</a>
+            <a class="nav-link" href="/about" th:text="#{navigation.about}">About</a>
+        </div>
+        <div class="navbar-nav ml-auto">
+            <a class="nav-link" href="?lang=en">English</a>
+            <a class="nav-link" href="?lang=zh_CN">中文</a>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <div class="jumbotron">
+            <h1 class="display-4" th:text="#{welcome.title}">Welcome to PetClinic</h1>
+            <p class="lead" th:text="#{welcome.message}">Welcome to the Spring PetClinic application</p>
+            <hr class="my-4">
+            <p>这是一个Spring Boot示例应用程序，展示了如何使用Spring Framework构建Web应用程序。</p>
+            <a class="btn btn-primary btn-lg" href="/owners" role="button" th:text="#{navigation.find.owners}">Find owners</a>
+            <a class="btn btn-info btn-lg" href="/vets" role="button" th:text="#{navigation.veterinarians}">Veterinarians</a>
+        </div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <h3>宠物主人管理</h3>
+                <p>添加、编辑和搜索宠物主人的信息。</p>
+                <p><a class="btn btn-secondary" href="/owners" role="button" th:text="#{navigation.find.owners}">查看详情</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>兽医信息</h3>
+                <p>查看我们专业的兽医团队和他们的专业领域。</p>
+                <p><a class="btn btn-secondary" href="/vets" role="button" th:text="#{navigation.veterinarians}">查看兽医</a></p>
+            </div>
+            <div class="col-md-4">
+                <h3>宠物护理</h3>
+                <p>记录宠物的就诊历史和健康状况。</p>
+                <p><a class="btn btn-secondary" href="/pets" role="button">宠物管理</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
