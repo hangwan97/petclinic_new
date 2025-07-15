@@ -1,0 +1,422 @@
+[
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W00",
+    "date": "2024-01-01T00:00:00",
+    "cumulative_points": 15
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W01",
+    "date": "2024-01-08T00:00:00",
+    "cumulative_points": 37
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W02",
+    "date": "2024-01-15T00:00:00",
+    "cumulative_points": 66
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W03",
+    "date": "2024-01-22T00:00:00",
+    "cumulative_points": 87
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W04",
+    "date": "2024-01-29T00:00:00",
+    "cumulative_points": 115
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W05",
+    "date": "2024-02-05T00:00:00",
+    "cumulative_points": 150
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W06",
+    "date": "2024-02-12T00:00:00",
+    "cumulative_points": 177
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W07",
+    "date": "2024-02-19T00:00:00",
+    "cumulative_points": 211
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W08",
+    "date": "2024-02-26T00:00:00",
+    "cumulative_points": 252
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W09",
+    "date": "2024-03-04T00:00:00",
+    "cumulative_points": 285
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W10",
+    "date": "2024-03-11T00:00:00",
+    "cumulative_points": 325
+  },
+  {
+    "individual": "Alice",
+    "color": "#FF6B6B",
+    "week": "2024-W11",
+    "date": "2024-03-18T00:00:00",
+    "cumulative_points": 372
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W00",
+    "date": "2024-01-01T00:00:00",
+    "cumulative_points": 12
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W01",
+    "date": "2024-01-08T00:00:00",
+    "cumulative_points": 30
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W02",
+    "date": "2024-01-15T00:00:00",
+    "cumulative_points": 48
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W03",
+    "date": "2024-01-22T00:00:00",
+    "cumulative_points": 72
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W04",
+    "date": "2024-01-29T00:00:00",
+    "cumulative_points": 96
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W05",
+    "date": "2024-02-05T00:00:00",
+    "cumulative_points": 126
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W06",
+    "date": "2024-02-12T00:00:00",
+    "cumulative_points": 156
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W07",
+    "date": "2024-02-19T00:00:00",
+    "cumulative_points": 192
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W08",
+    "date": "2024-02-26T00:00:00",
+    "cumulative_points": 228
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W09",
+    "date": "2024-03-04T00:00:00",
+    "cumulative_points": 270
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W10",
+    "date": "2024-03-11T00:00:00",
+    "cumulative_points": 312
+  },
+  {
+    "individual": "Bob",
+    "color": "#4ECDC4",
+    "week": "2024-W11",
+    "date": "2024-03-18T00:00:00",
+    "cumulative_points": 360
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W00",
+    "date": "2024-01-01T00:00:00",
+    "cumulative_points": 18
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W01",
+    "date": "2024-01-08T00:00:00",
+    "cumulative_points": 44
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W02",
+    "date": "2024-01-15T00:00:00",
+    "cumulative_points": 78
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W03",
+    "date": "2024-01-22T00:00:00",
+    "cumulative_points": 120
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W04",
+    "date": "2024-01-29T00:00:00",
+    "cumulative_points": 142
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W05",
+    "date": "2024-02-05T00:00:00",
+    "cumulative_points": 172
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W06",
+    "date": "2024-02-12T00:00:00",
+    "cumulative_points": 210
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W07",
+    "date": "2024-02-19T00:00:00",
+    "cumulative_points": 256
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W08",
+    "date": "2024-02-26T00:00:00",
+    "cumulative_points": 282
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W09",
+    "date": "2024-03-04T00:00:00",
+    "cumulative_points": 316
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W10",
+    "date": "2024-03-11T00:00:00",
+    "cumulative_points": 358
+  },
+  {
+    "individual": "Charlie",
+    "color": "#45B7D1",
+    "week": "2024-W11",
+    "date": "2024-03-18T00:00:00",
+    "cumulative_points": 408
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W00",
+    "date": "2024-01-01T00:00:00",
+    "cumulative_points": 10
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W01",
+    "date": "2024-01-08T00:00:00",
+    "cumulative_points": 26
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W02",
+    "date": "2024-01-15T00:00:00",
+    "cumulative_points": 48
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W03",
+    "date": "2024-01-22T00:00:00",
+    "cumulative_points": 76
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W04",
+    "date": "2024-01-29T00:00:00",
+    "cumulative_points": 110
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W05",
+    "date": "2024-02-05T00:00:00",
+    "cumulative_points": 140
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W06",
+    "date": "2024-02-12T00:00:00",
+    "cumulative_points": 176
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W07",
+    "date": "2024-02-19T00:00:00",
+    "cumulative_points": 218
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W08",
+    "date": "2024-02-26T00:00:00",
+    "cumulative_points": 266
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W09",
+    "date": "2024-03-04T00:00:00",
+    "cumulative_points": 320
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W10",
+    "date": "2024-03-11T00:00:00",
+    "cumulative_points": 370
+  },
+  {
+    "individual": "Diana",
+    "color": "#FFA726",
+    "week": "2024-W11",
+    "date": "2024-03-18T00:00:00",
+    "cumulative_points": 426
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W00",
+    "date": "2024-01-01T00:00:00",
+    "cumulative_points": 20
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W01",
+    "date": "2024-01-08T00:00:00",
+    "cumulative_points": 46
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W02",
+    "date": "2024-01-15T00:00:00",
+    "cumulative_points": 78
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W03",
+    "date": "2024-01-22T00:00:00",
+    "cumulative_points": 104
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W04",
+    "date": "2024-01-29T00:00:00",
+    "cumulative_points": 136
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W05",
+    "date": "2024-02-05T00:00:00",
+    "cumulative_points": 174
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W06",
+    "date": "2024-02-12T00:00:00",
+    "cumulative_points": 206
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W07",
+    "date": "2024-02-19T00:00:00",
+    "cumulative_points": 244
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W08",
+    "date": "2024-02-26T00:00:00",
+    "cumulative_points": 288
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W09",
+    "date": "2024-03-04T00:00:00",
+    "cumulative_points": 326
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W10",
+    "date": "2024-03-11T00:00:00",
+    "cumulative_points": 370
+  },
+  {
+    "individual": "Eve",
+    "color": "#AB47BC",
+    "week": "2024-W11",
+    "date": "2024-03-18T00:00:00",
+    "cumulative_points": 420
+  }
+]

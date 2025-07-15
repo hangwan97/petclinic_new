@@ -2,6 +2,35 @@
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
 
+## Individual Point Tracking
+
+This application includes a point tracking system that monitors individual performance over time. Below is a line chart showing the cumulative point totals for each individual per week, with each person represented by a unique color.
+
+![Individual Point Tracking Chart](charts/individual_points_line_chart.png)
+
+The chart displays:
+- **X-axis**: Time segmented by week (2024-W00 to 2024-W11)
+- **Y-axis**: Cumulative point total for each individual
+- **Lines**: Each individual is represented by a unique color:
+  - Alice (Red): #FF6B6B
+  - Bob (Teal): #4ECDC4
+  - Charlie (Blue): #45B7D1
+  - Diana (Orange): #FFA726
+  - Eve (Purple): #AB47BC
+
+### Chart Generation
+
+To regenerate the chart with updated data:
+
+```bash
+cd petclinic_new
+python3 scripts/generate_chart.py
+```
+
+This will create:
+- `charts/individual_points_line_chart.png` - The line chart visualization
+- `charts/point_tracking_data.json` - Raw data used for chart generation
+
 ## Understanding the Spring Petclinic application with a few diagrams
 
 [See the presentation here](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
