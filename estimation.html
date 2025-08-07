@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Eclipse Copilot TAM estimation</title>
+    <style>
+        body {
+            background: #f4f9f9;
+            font-family: 'Segoe UI', Arial, sans-serif;
+            color: #222;
+        }
+        h1 {
+            color: #25818c;
+            text-align: center;
+            margin-top: 24px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 48px;
+        }
+        .column {
+            flex: 1;
+            max-width: 500px;
+            margin: 0 40px;
+        }
+        .title {
+            font-size: 3em;
+            margin-bottom: 24px;
+        }
+        .item {
+            font-size: 1.3em;
+            margin-bottom: 18px;
+        }
+        .highlight {
+            color: #6ca03c;
+            font-weight: bold;
+        }
+        .yellow {
+            color: #e6b800;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Eclipse Copilot TAM estimation</h1>
+    <div class="container">
+        <div class="column">
+            <div class="title">Vscode</div>
+            <div class="item">Copilot Pre-install: Yes</div>
+            <div class="item">Vscode deveopers: <span class="highlight">37M</span></div>
+            <div class="item">VsCode Copilot MAU: <span class="highlight">7M</span></div>
+            <div class="item">Copilot convertion rate: 18.91%</div>
+        </div>
+        <div class="column">
+            <div class="title">Eclipse</div>
+            <div class="item">Copilot Pre-install: Yes (in progress)</div>
+            <div class="item">Eclipse deveopers: 3.8M</div>
+            <div class="item">VsCode Copilot MAU: 3.8 * 18.91% = <span class="yellow">0.72M</span></div>
+            <div class="item">Copilot convertion rate: 18.91%</div>
+        </div>
+    </div>
+</body>
+</html>
