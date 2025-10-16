@@ -1,0 +1,93 @@
+# Spring PetClinic - Additional Documentation
+
+## Purpose
+
+This document serves as supplementary documentation for the Spring PetClinic application, providing additional technical details and development guidelines that complement the main README.md file.
+
+## Project Overview
+
+Spring PetClinic is a sample Spring Boot application that demonstrates best practices for building web applications with Spring Framework. This project showcases:
+
+- Spring Boot application architecture
+- Spring MVC for web layer
+- Spring Data JPA for data access
+- Thymeleaf for server-side templating
+- H2, MySQL, and PostgreSQL database support
+- Maven and Gradle build configurations
+
+## Development Setup
+
+### Prerequisites
+
+- Java 17 or higher
+- Maven 3.6+ (or use the included Maven wrapper)
+- Git
+- (Optional) Docker for containerization
+- (Optional) MySQL or PostgreSQL for database testing
+
+### Environment Configuration
+
+The application supports multiple profiles:
+
+- **default**: Uses H2 in-memory database
+- **mysql**: Uses MySQL database
+- **postgres**: Uses PostgreSQL database
+
+## Project Structure
+
+```
+petclinic_new/
+├── src/
+│   ├── main/
+│   │   ├── java/           # Java source files
+│   │   ├── resources/      # Application properties and templates
+│   │   └── wro/            # Web resource optimizer configuration
+│   └── test/               # Test files
+├── charts/                 # Point tracking charts and data
+├── scripts/                # Utility scripts
+├── pom.xml                 # Maven configuration
+└── README.md              # Main documentation
+```
+
+## Testing
+
+Run the test suite using Maven:
+
+```bash
+./mvnw test
+```
+
+For integration tests:
+
+```bash
+./mvnw verify
+```
+
+## Contributing
+
+When contributing to this project:
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests to ensure nothing breaks
+5. Submit a pull request
+
+## Additional Resources
+
+- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
+- [Spring Framework Documentation](https://spring.io/projects/spring-framework)
+- [Spring Data JPA Documentation](https://spring.io/projects/spring-data-jpa)
+- [Thymeleaf Documentation](https://www.thymeleaf.org/documentation.html)
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Port 8080 already in use**: Change the port in `application.properties` or stop the process using port 8080
+2. **Database connection issues**: Verify database credentials in the appropriate `application-*.properties` file
+3. **Build failures**: Ensure Java 17+ is installed and JAVA_HOME is set correctly
+
+## License
+
+This project is licensed under the Apache License 2.0. See the main README.md for details.
