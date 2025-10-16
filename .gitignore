@@ -1,5 +1,7 @@
 target/
-.mvn/
+!.mvn/wrapper/
+.mvn/*
+!.mvn/wrapper
 *.log
 .DS_Store
 .idea/

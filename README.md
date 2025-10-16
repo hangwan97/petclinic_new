@@ -1,6 +1,8 @@
-# Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)[![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/gradle-build.yml)
+# Spring PetClinic Sample Application
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/hangwan97/petclinic_new) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/hangwan97/petclinic_new)
+
+> **Note:** This is a fork of the Spring PetClinic sample application with additional features including individual point tracking.
 
 ## Individual Point Tracking
 
@@ -23,6 +25,10 @@ The chart displays:
 To regenerate the chart with updated data:
 
 ```bash
+# Install Python dependencies first (if not already installed)
+pip install -r requirements.txt
+
+# Generate the chart
 cd petclinic_new
 python3 scripts/generate_chart.py
 ```
@@ -37,7 +43,7 @@ This will create:
 
 ## Run Petclinic locally
 
-Spring Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/) or [Gradle](https://spring.io/guides/gs/gradle/). You can build a jar file and run it from the command line (it should work just as well with Java 17 or newer):
+Spring Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/). You can build a jar file and run it from the command line (it should work just as well with Java 17 or newer):
 
 ```bash
 git clone https://github.com/hangwan97/petclinic_new.git
@@ -57,8 +63,6 @@ Or you can run it from Maven directly using the Spring Boot Maven plugin. If you
 ```bash
 ./mvnw spring-boot:run
 ```
-
-> NOTE: If you prefer to use Gradle, you can build the app using `./gradlew build` and look for the jar file in `build/libs`.
 
 ## Building a Container
 
