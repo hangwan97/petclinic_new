@@ -25,6 +25,10 @@ The chart displays:
 To regenerate the chart with updated data:
 
 ```bash
+# Install Python dependencies first (if not already installed)
+pip install -r requirements.txt
+
+# Generate the chart
 cd petclinic_new
 python3 scripts/generate_chart.py
 ```
