@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org" th:replace="~{fragments/layout :: layout (~{::body},'adoption')}">
+
+<body>
+
+  <h2>Pet Adoption</h2>
+  <p class="lead">Pets available for adoption</p>
+
+  <table class="table table-striped table-hover">
+    <thead class="table-dark">
+      <tr>
+        <th>Pet Name</th>
+        <th>Species</th>
+        <th>Breed</th>
+        <th>Age</th>
+        <th>Adoption Status</th>
+        <th>Intake Date</th>
+        <th>Notes</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr th:each="pet : ${adoptionPets}">
+        <td th:text="${pet.name}">Buddy</td>
+        <td th:text="${pet.species}">Dog</td>
+        <td th:text="${pet.breed}">Golden Retriever</td>
+        <td th:text="${pet.age}">3</td>
+        <td th:text="${pet.adoptionStatus}">Available</td>
+        <td th:text="${#temporals.format(pet.intakeDate, 'yyyy-MM-dd')}">2024-01-15</td>
+        <td th:text="${pet.notes}">Friendly and energetic</td>
+      </tr>
+      <tr th:if="${#lists.isEmpty(adoptionPets)}">
+        <td colspan="7" class="text-center text-muted">No pets available for adoption at this time</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+
+</html>
