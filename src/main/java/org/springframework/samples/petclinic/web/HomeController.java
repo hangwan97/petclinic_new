@@ -14,30 +14,20 @@
  * limitations under the License.
  */
 
-package org.springframework.samples.petclinic.model;
+package org.springframework.samples.petclinic.web;
 
-import java.io.Serializable;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
 
 /**
- * Base entity class for all entities in the petclinic application.
- *
- * @author Ken Krebs
- * @author Juergen Hoeller
+ * Controller for handling home page requests.
  */
-public class BaseEntity implements Serializable {
+@Controller
+public class HomeController {
 
-	private Integer id;
-
-	public Integer getId() {
-		return id;
-	}
-
-	public void setId(Integer id) {
-		this.id = id;
-	}
-
-	public boolean isNew() {
-		return this.id == null;
+	@GetMapping("/")
+	public String home() {
+		return "index";
 	}
 
 }

@@ -1,0 +1,38 @@
+/* Pet Clinic Custom Styles */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1;
+}
+
+.footer {
+    margin-top: auto;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 0.3rem;
+}
+
+.table-responsive {
+    margin-top: 1rem;
+}
+
+.navbar-brand i {
+    margin-right: 0.5rem;
+}
+
+h2 {
+    color: #343a40;
+    font-weight: 600;
+}
+
+.text-muted {
+    font-size: 0.95rem;
+}
