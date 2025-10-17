@@ -184,6 +184,7 @@
           </bomAttachments>
         </configuration>
       </plugin>
+      <!-- Commented out due to missing dependency io.spring.nohttp:nohttp-checkstyle:jar:0.0.12
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-checkstyle-plugin</artifactId>
@@ -218,6 +219,7 @@
           </execution>
         </executions>
       </plugin>
+      -->
       <plugin>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-maven-plugin</artifactId>

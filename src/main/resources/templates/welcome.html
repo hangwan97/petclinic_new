@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome - Spring PetClinic</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <style>
+        body {
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .welcome-container {
+            background-color: white;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            max-width: 900px;
+            width: 100%;
+        }
+        .welcome-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .welcome-header h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .welcome-header p {
+            color: #6c757d;
+            font-size: 1.2em;
+        }
+        .feature-card {
+            border: none;
+            border-radius: 10px;
+            padding: 30px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+        }
+        .feature-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+        }
+        .feature-card i {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .feature-card.adoption {
+            background: linear-gradient(135deg, #fff5f5 0%, #ffd6d6 100%);
+        }
+        .feature-card.adoption i {
+            color: #198754;
+        }
+        .feature-card.test {
+            background: linear-gradient(135deg, #f0f8ff 0%, #d6e9ff 100%);
+        }
+        .feature-card.test i {
+            color: #0d6efd;
+        }
+        .feature-card h3 {
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+        .feature-card p {
+            color: #6c757d;
+            margin-bottom: 20px;
+        }
+        .btn-feature {
+            padding: 10px 30px;
+            font-size: 1.1em;
+            border-radius: 25px;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        .btn-adoption {
+            background-color: #198754;
+            color: white;
+            border: none;
+        }
+        .btn-adoption:hover {
+            background-color: #157347;
+            color: white;
+        }
+        .btn-test {
+            background-color: #0d6efd;
+            color: white;
+            border: none;
+        }
+        .btn-test:hover {
+            background-color: #0b5ed7;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="welcome-container">
+        <div class="welcome-header">
+            <h1><i class="bi bi-heart-fill"></i> Spring PetClinic</h1>
+            <p>Welcome to the Pet Management System</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-6">
+                <div class="card feature-card adoption">
+                    <i class="bi bi-heart-fill"></i>
+                    <h3>Pet Adoptions</h3>
+                    <p>Manage and track pet adoption records. View adoption history, status, and adopter information.</p>
+                    <a href="/adoptions" class="btn btn-feature btn-adoption">
+                        View Adoptions <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card feature-card test">
+                    <i class="bi bi-clipboard-heart-fill"></i>
+                    <h3>Pet Tests</h3>
+                    <p>Access comprehensive pet testing records. Review test results, dates, and veterinary notes.</p>
+                    <a href="/tests" class="btn btn-feature btn-test">
+                        View Tests <i class="bi bi-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="text-center mt-5">
+            <p class="text-muted">
+                <small>
+                    <i class="bi bi-info-circle"></i> 
+                    This is a UI-only demonstration. No data is persisted to a database.
+                </small>
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

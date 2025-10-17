@@ -31,6 +31,40 @@ This will create:
 - `charts/individual_points_line_chart.png` - The line chart visualization
 - `charts/point_tracking_data.json` - Raw data used for chart generation
 
+## New Features: Adoption and Test Tabs
+
+This application now includes two new UI tabs for managing pet-related information:
+
+### Adoption Tab
+The **Adoption** tab provides a comprehensive view of pet adoption records. Features include:
+- Pet name and species/breed information
+- Adoption date tracking
+- Adopter contact information
+- Status monitoring (Completed, Pending, In Progress)
+
+Access the Adoption tab at: `http://localhost:8080/adoptions`
+
+![Adoption Tab](https://github.com/user-attachments/assets/02f1870d-d372-487e-9a6d-cf0c442492af)
+
+### Test Tab
+The **Test** tab displays pet medical testing records and health information. Features include:
+- Pet name
+- Test type (Blood Test, Vaccination, X-Ray, etc.)
+- Date administered
+- Test results
+- Veterinarian information
+
+Access the Test tab at: `http://localhost:8080/tests`
+
+![Test Tab](https://github.com/user-attachments/assets/5adf4e8f-3c6e-4951-9634-628b515534af)
+
+### Welcome Page
+The application includes a modern welcome page with easy navigation to both tabs:
+
+![Welcome Page](https://github.com/user-attachments/assets/3a188972-8a90-4c3b-af48-e32935768b88)
+
+**Note:** These are UI-only features with mock data for demonstration purposes. No data is persisted to a database.
+
 ## Understanding the Spring Petclinic application with a few diagrams
 
 [See the presentation here](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
