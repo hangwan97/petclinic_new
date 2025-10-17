@@ -197,7 +197,7 @@
           <dependency>
             <groupId>io.spring.nohttp</groupId>
             <artifactId>nohttp-checkstyle</artifactId>
-            <version>0.0.12</version>
+            <version>0.0.11</version>
           </dependency>
         </dependencies>
         <executions>
@@ -211,6 +211,7 @@
               <sourceDirectories>${basedir}</sourceDirectories>
               <includes>**/*</includes>
               <excludes>**/.git/**/*,**/.idea/**/*,**/target/**/,**/.flattened-pom.xml,**/*.class</excludes>
+              <propertyExpansion>config_loc=${project.basedir}/src/checkstyle</propertyExpansion>
             </configuration>
             <goals>
               <goal>check</goal>

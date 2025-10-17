@@ -16,13 +16,15 @@
 
 package org.springframework.samples.petclinic.model;
 
+import java.io.Serializable;
+
 /**
  * Base entity class for all entities in the petclinic application.
  *
  * @author Ken Krebs
  * @author Juergen Hoeller
  */
-public class BaseEntity {
+public class BaseEntity implements Serializable {
 
 	private Integer id;
 
