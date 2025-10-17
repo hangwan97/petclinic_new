@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html th:fragment="layout (template, menu)" xmlns:th="https://www.thymeleaf.org">
+
+<head>
+
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PetClinic :: a Spring Framework demonstration</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+    <div class="container-fluid">
+      <a class="navbar-brand" th:href="@{/}">PetClinic</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-navbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="main-navbar">
+
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0" th:remove="all">
+
+          <li th:fragment="menuItem (link,active,title,glyph,text)" th:class="nav-item">
+            <a th:class="${active==menu ? 'nav-link active' : 'nav-link'}" th:href="@{__${link}__}" th:title="${title}">
+              <span th:class="'fa fa-'+${glyph}"></span>
+              <span th:text="${text}">Template</span>
+            </a>
+          </li>
+
+        </ul>
+
+        <ul class="nav navbar-nav me-auto">
+
+          <li th:replace="~{::menuItem ('/','home','home page','home','Home')}">
+            <span class="fa fa-home" aria-hidden="true"></span>
+            <span>Home</span>
+          </li>
+
+          <li th:replace="~{::menuItem ('/adoption','adoption','pet adoption','heart','Adoption')}">
+            <span class="fa fa-heart" aria-hidden="true"></span>
+            <span>Adoption</span>
+          </li>
+
+          <li th:replace="~{::menuItem ('/test','test','pet tests','flask','Test')}">
+            <span class="fa fa-flask" aria-hidden="true"></span>
+            <span>Test</span>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container-fluid">
+    <div class="container">
+
+      <th:block th:insert="${template}" />
+
+      <br />
+      <br />
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="text-muted">Spring PetClinic Application</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,6 +1,38 @@
-# Spring PetClinic Sample Application [![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/maven-build.yml)[![Build Status](https://github.com/spring-projects/spring-petclinic/actions/workflows/gradle-build.yml/badge.svg)](https://github.com/spring-projects/spring-petclinic/actions/workflows/gradle-build.yml)
+# Spring PetClinic Sample Application
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/spring-projects/spring-petclinic) [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=7517918)
+A Spring Boot application for managing pet clinic operations, including pet adoption and test tracking capabilities.
+
+## Features
+
+### 🏠 Home Page
+Welcome page providing an overview of the application and its features.
+
+### ❤️ Pet Adoption Tab
+View and manage pets available for adoption with detailed information:
+- Pet Name
+- Species (Dog, Cat, etc.)
+- Breed
+- Age
+- Adoption Status (Available, Pending, Adopted)
+- Intake Date
+- Notes
+
+### 🧪 Pet Test Tab
+Track pet tests and examinations with comprehensive records:
+- Pet Name
+- Test Type (Blood Test, Vaccination, Physical Examination, etc.)
+- Date Administered
+- Result
+- Veterinarian
+- Follow-up Needed (Yes/No)
+
+## Technology Stack
+
+- **Backend**: Spring Boot 3.4.2
+- **Frontend**: Thymeleaf templates with Bootstrap 5
+- **Database**: H2 (in-memory)
+- **Build Tool**: Maven
+- **Java Version**: 17+
 
 ## Individual Point Tracking
 
@@ -31,9 +63,12 @@ This will create:
 - `charts/individual_points_line_chart.png` - The line chart visualization
 - `charts/point_tracking_data.json` - Raw data used for chart generation
 
-## Understanding the Spring Petclinic application with a few diagrams
+## Getting Started
 
-[See the presentation here](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
+### Prerequisites
+
+- Java 17 or newer
+- Maven 3.6+
 
 ## Run Petclinic locally
 
@@ -42,31 +77,73 @@ Spring Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) app
 ```bash
 git clone https://github.com/hangwan97/petclinic_new.git
 cd petclinic_new
-./mvnw package
-java -jar target/*.jar
+mvn spring-boot:run
 ```
-
-(On Windows, or if your shell doesn't expand the glob, you might need to specify the JAR file name explicitly on the command line at the end there.)
 
 You can then access the Petclinic at <http://localhost:8080/>.
 
-<img width="1042" alt="petclinic-screenshot" src="https://cloud.githubusercontent.com/assets/838318/19727082/2aee6d6c-9b8e-11e6-81fe-e889a5ddfded.png">
+### Application Pages
 
-Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this, it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
+Once the application is running, you can navigate to:
 
-```bash
-./mvnw spring-boot:run
-```
+- **Home**: http://localhost:8080/ - Welcome page with application overview
+- **Adoption**: http://localhost:8080/adoption - Pet adoption management
+- **Test**: http://localhost:8080/test - Pet test and examination records
 
-> NOTE: If you prefer to use Gradle, you can build the app using `./gradlew build` and look for the jar file in `build/libs`.
+## Building the Application
 
-## Building a Container
-
-There is no `Dockerfile` in this project. You can build a container image (if you have a docker daemon) using the Spring Boot build plugin:
+To build the application without running it:
 
 ```bash
-./mvnw spring-boot:build-image
+mvn clean compile
 ```
+
+To package the application as a JAR:
+
+```bash
+mvn clean package
+java -jar target/spring-petclinic-3.4.0-SNAPSHOT.jar
+```
+
+## Project Structure
+
+```
+src/
+├── main/
+│   ├── java/
+│   │   └── org/springframework/samples/petclinic/
+│   │       ├── PetClinicApplication.java
+│   │       ├── adoption/
+│   │       │   └── AdoptionController.java
+│   │       ├── test/
+│   │       │   └── TestController.java
+│   │       ├── model/
+│   │       │   ├── AdoptionPet.java
+│   │       │   ├── PetTest.java
+│   │       │   └── BaseEntity.java
+│   │       └── system/
+│   │           └── WelcomeController.java
+│   └── resources/
+│       ├── application.properties
+│       └── templates/
+│           ├── welcome.html
+│           ├── adoption/
+│           │   └── adoptionList.html
+│           ├── test/
+│           │   └── testList.html
+│           └── fragments/
+│               └── layout.html
+```
+
+## Future Enhancements
+
+- Database integration with PostgreSQL/MySQL for persistent data storage
+- CRUD operations for adoption pets and test records
+- User authentication and authorization
+- RESTful API endpoints
+- Advanced search and filtering capabilities
+- Real-time notifications for adoption status changes
+- Integration with veterinary management systems
 
 ## In case you find a bug/suggested improvement for Spring Petclinic
 
