@@ -1,0 +1,11 @@
+target/
+.mvn/
+*.log
+.DS_Store
+.idea/
+*.iml
+.vscode/
+node_modules/
+__pycache__/
+*.pyc
+.pytest_cache/
