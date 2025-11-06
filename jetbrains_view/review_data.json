@@ -1,0 +1,590 @@
+{
+  "metadata": {
+    "generated_at": "2025-11-06T07:36:39.284704",
+    "source_url": "https://plugins.jetbrains.com/plugin/17718-github-copilot/reviews",
+    "total_reviews": 30,
+    "average_rating": 3.966666666666667,
+    "date_range": "2024-01-01 to 2024-12-01"
+  },
+  "reviews": [
+    {
+      "id": 0,
+      "rating": 3,
+      "text": "Code completion is amazing but sometimes slow on large files. The inline suggestions are very helpful.",
+      "date": "2024-01-01T00:00:00"
+    },
+    {
+      "id": 1,
+      "rating": 5,
+      "text": "Chat feature is great for explaining code. Would love to see better integration with the IDE.",
+      "date": "2024-02-01T00:00:00"
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "text": "Agent mode is revolutionary! It can handle complex tasks autonomously. Performance could be better.",
+      "date": "2024-03-01T00:00:00"
+    },
+    {
+      "id": 3,
+      "rating": 3,
+      "text": "MCP support would be a great addition. Currently missing some features compared to VS Code.",
+      "date": "2024-04-01T00:00:00"
+    },
+    {
+      "id": 4,
+      "rating": 4,
+      "text": "Inline chat is useful but the UX needs improvement. Sometimes it's hard to find where to click.",
+      "date": "2024-05-01T00:00:00"
+    },
+    {
+      "id": 5,
+      "rating": 3,
+      "text": "Security features are lacking. Need better handling of sensitive data in prompts.",
+      "date": "2024-06-01T00:00:00"
+    },
+    {
+      "id": 6,
+      "rating": 3,
+      "text": "Performance issues when working with large codebases. Often causes IDE to freeze.",
+      "date": "2024-07-01T00:00:00"
+    },
+    {
+      "id": 7,
+      "rating": 4,
+      "text": "Code completion works well for Python but Java support needs improvement. Feature parity with VS Code needed.",
+      "date": "2024-08-01T00:00:00"
+    },
+    {
+      "id": 8,
+      "rating": 5,
+      "text": "Love the agent capabilities! Would be great to have custom instructions support.",
+      "date": "2024-09-01T00:00:00"
+    },
+    {
+      "id": 9,
+      "rating": 4,
+      "text": "The chat is helpful but model selection is limited. Need more model options.",
+      "date": "2024-10-01T00:00:00"
+    },
+    {
+      "id": 10,
+      "rating": 3,
+      "text": "Great tool overall but crashes occasionally. UX could be more intuitive.",
+      "date": "2024-11-01T00:00:00"
+    },
+    {
+      "id": 11,
+      "rating": 5,
+      "text": "Inline suggestions are excellent for JavaScript. Would like to see NES integration.",
+      "date": "2024-12-01T00:00:00"
+    },
+    {
+      "id": 12,
+      "rating": 4,
+      "text": "Performance has improved but still lags compared to other IDEs. Keep up the good work!",
+      "date": "2024-01-01T00:00:00"
+    },
+    {
+      "id": 13,
+      "rating": 3,
+      "text": "Missing some key features from VS Code version. Feature parity is important.",
+      "date": "2024-02-01T00:00:00"
+    },
+    {
+      "id": 14,
+      "rating": 4,
+      "text": "Agent mode is impressive but needs better error handling. Sometimes fails silently.",
+      "date": "2024-03-01T00:00:00"
+    },
+    {
+      "id": 15,
+      "rating": 5,
+      "text": "Code completion accuracy is great! Chat responses could be faster though.",
+      "date": "2024-04-01T00:00:00"
+    },
+    {
+      "id": 16,
+      "rating": 4,
+      "text": "MCP would revolutionize my workflow. Please add this feature soon!",
+      "date": "2024-05-01T00:00:00"
+    },
+    {
+      "id": 17,
+      "rating": 4,
+      "text": "Security scanning integration would be valuable. Currently have to use separate tools.",
+      "date": "2024-06-01T00:00:00"
+    },
+    {
+      "id": 18,
+      "rating": 4,
+      "text": "The plugin is good but memory usage is too high. Performance optimization needed.",
+      "date": "2024-07-01T00:00:00"
+    },
+    {
+      "id": 19,
+      "rating": 5,
+      "text": "Custom instructions would make this perfect. Otherwise great code completion.",
+      "date": "2024-08-01T00:00:00"
+    },
+    {
+      "id": 20,
+      "rating": 4,
+      "text": "Inline chat positioning is awkward. UX improvements needed for better usability.",
+      "date": "2024-09-01T00:00:00"
+    },
+    {
+      "id": 21,
+      "rating": 5,
+      "text": "Model support is limited. Would love GPT-4 or Claude integration.",
+      "date": "2024-10-01T00:00:00"
+    },
+    {
+      "id": 22,
+      "rating": 3,
+      "text": "Agent capabilities are amazing but documentation is lacking. Need better examples.",
+      "date": "2024-11-01T00:00:00"
+    },
+    {
+      "id": 23,
+      "rating": 4,
+      "text": "Performance degradation over time. Need to restart IDE frequently.",
+      "date": "2024-12-01T00:00:00"
+    },
+    {
+      "id": 24,
+      "rating": 3,
+      "text": "Feature parity with VS Code extension is crucial. Missing inline chat enhancements.",
+      "date": "2024-01-01T00:00:00"
+    },
+    {
+      "id": 25,
+      "rating": 5,
+      "text": "Great for code generation but refactoring suggestions need work. Keep improving!",
+      "date": "2024-02-01T00:00:00"
+    },
+    {
+      "id": 26,
+      "rating": 3,
+      "text": "Chat history gets lost sometimes. UX bug that needs fixing.",
+      "date": "2024-03-01T00:00:00"
+    },
+    {
+      "id": 27,
+      "rating": 5,
+      "text": "Would love NES (New Ecosystem Support) for better integration with JetBrains tools.",
+      "date": "2024-04-01T00:00:00"
+    },
+    {
+      "id": 28,
+      "rating": 4,
+      "text": "Security concerns about data privacy. Need clearer documentation on data handling.",
+      "date": "2024-05-01T00:00:00"
+    },
+    {
+      "id": 29,
+      "rating": 3,
+      "text": "Overall excellent but some bugs in the latest version. Code completion still works great.",
+      "date": "2024-06-01T00:00:00"
+    }
+  ],
+  "categorization": {
+    "features": {
+      "Code Completion": [
+        {
+          "id": 0,
+          "rating": 3,
+          "text": "Code completion is amazing but sometimes slow on large files. The inline suggestions are very helpful.",
+          "date": "2024-01-01T00:00:00"
+        },
+        {
+          "id": 7,
+          "rating": 4,
+          "text": "Code completion works well for Python but Java support needs improvement. Feature parity with VS Code needed.",
+          "date": "2024-08-01T00:00:00"
+        },
+        {
+          "id": 11,
+          "rating": 5,
+          "text": "Inline suggestions are excellent for JavaScript. Would like to see NES integration.",
+          "date": "2024-12-01T00:00:00"
+        },
+        {
+          "id": 15,
+          "rating": 5,
+          "text": "Code completion accuracy is great! Chat responses could be faster though.",
+          "date": "2024-04-01T00:00:00"
+        },
+        {
+          "id": 19,
+          "rating": 5,
+          "text": "Custom instructions would make this perfect. Otherwise great code completion.",
+          "date": "2024-08-01T00:00:00"
+        },
+        {
+          "id": 25,
+          "rating": 5,
+          "text": "Great for code generation but refactoring suggestions need work. Keep improving!",
+          "date": "2024-02-01T00:00:00"
+        },
+        {
+          "id": 29,
+          "rating": 3,
+          "text": "Overall excellent but some bugs in the latest version. Code completion still works great.",
+          "date": "2024-06-01T00:00:00"
+        }
+      ],
+      "Chat/Edit": [
+        {
+          "id": 1,
+          "rating": 5,
+          "text": "Chat feature is great for explaining code. Would love to see better integration with the IDE.",
+          "date": "2024-02-01T00:00:00"
+        },
+        {
+          "id": 2,
+          "rating": 5,
+          "text": "Agent mode is revolutionary! It can handle complex tasks autonomously. Performance could be better.",
+          "date": "2024-03-01T00:00:00"
+        },
+        {
+          "id": 4,
+          "rating": 4,
+          "text": "Inline chat is useful but the UX needs improvement. Sometimes it's hard to find where to click.",
+          "date": "2024-05-01T00:00:00"
+        },
+        {
+          "id": 9,
+          "rating": 4,
+          "text": "The chat is helpful but model selection is limited. Need more model options.",
+          "date": "2024-10-01T00:00:00"
+        },
+        {
+          "id": 20,
+          "rating": 4,
+          "text": "Inline chat positioning is awkward. UX improvements needed for better usability.",
+          "date": "2024-09-01T00:00:00"
+        },
+        {
+          "id": 24,
+          "rating": 3,
+          "text": "Feature parity with VS Code extension is crucial. Missing inline chat enhancements.",
+          "date": "2024-01-01T00:00:00"
+        },
+        {
+          "id": 26,
+          "rating": 3,
+          "text": "Chat history gets lost sometimes. UX bug that needs fixing.",
+          "date": "2024-03-01T00:00:00"
+        }
+      ],
+      "MCP": [
+        {
+          "id": 3,
+          "rating": 3,
+          "text": "MCP support would be a great addition. Currently missing some features compared to VS Code.",
+          "date": "2024-04-01T00:00:00"
+        },
+        {
+          "id": 16,
+          "rating": 4,
+          "text": "MCP would revolutionize my workflow. Please add this feature soon!",
+          "date": "2024-05-01T00:00:00"
+        }
+      ],
+      "Security": [
+        {
+          "id": 5,
+          "rating": 3,
+          "text": "Security features are lacking. Need better handling of sensitive data in prompts.",
+          "date": "2024-06-01T00:00:00"
+        },
+        {
+          "id": 17,
+          "rating": 4,
+          "text": "Security scanning integration would be valuable. Currently have to use separate tools.",
+          "date": "2024-06-01T00:00:00"
+        },
+        {
+          "id": 28,
+          "rating": 4,
+          "text": "Security concerns about data privacy. Need clearer documentation on data handling.",
+          "date": "2024-05-01T00:00:00"
+        }
+      ],
+      "Others": [
+        {
+          "id": 6,
+          "rating": 3,
+          "text": "Performance issues when working with large codebases. Often causes IDE to freeze.",
+          "date": "2024-07-01T00:00:00"
+        },
+        {
+          "id": 10,
+          "rating": 3,
+          "text": "Great tool overall but crashes occasionally. UX could be more intuitive.",
+          "date": "2024-11-01T00:00:00"
+        },
+        {
+          "id": 12,
+          "rating": 4,
+          "text": "Performance has improved but still lags compared to other IDEs. Keep up the good work!",
+          "date": "2024-01-01T00:00:00"
+        },
+        {
+          "id": 13,
+          "rating": 3,
+          "text": "Missing some key features from VS Code version. Feature parity is important.",
+          "date": "2024-02-01T00:00:00"
+        },
+        {
+          "id": 18,
+          "rating": 4,
+          "text": "The plugin is good but memory usage is too high. Performance optimization needed.",
+          "date": "2024-07-01T00:00:00"
+        },
+        {
+          "id": 21,
+          "rating": 5,
+          "text": "Model support is limited. Would love GPT-4 or Claude integration.",
+          "date": "2024-10-01T00:00:00"
+        },
+        {
+          "id": 23,
+          "rating": 4,
+          "text": "Performance degradation over time. Need to restart IDE frequently.",
+          "date": "2024-12-01T00:00:00"
+        },
+        {
+          "id": 27,
+          "rating": 5,
+          "text": "Would love NES (New Ecosystem Support) for better integration with JetBrains tools.",
+          "date": "2024-04-01T00:00:00"
+        }
+      ],
+      "Agent": [
+        {
+          "id": 8,
+          "rating": 5,
+          "text": "Love the agent capabilities! Would be great to have custom instructions support.",
+          "date": "2024-09-01T00:00:00"
+        },
+        {
+          "id": 14,
+          "rating": 4,
+          "text": "Agent mode is impressive but needs better error handling. Sometimes fails silently.",
+          "date": "2024-03-01T00:00:00"
+        },
+        {
+          "id": 22,
+          "rating": 3,
+          "text": "Agent capabilities are amazing but documentation is lacking. Need better examples.",
+          "date": "2024-11-01T00:00:00"
+        }
+      ]
+    },
+    "bugs": {
+      "Performance": [
+        {
+          "id": 0,
+          "rating": 3,
+          "text": "Code completion is amazing but sometimes slow on large files. The inline suggestions are very helpful.",
+          "date": "2024-01-01T00:00:00"
+        },
+        {
+          "id": 2,
+          "rating": 5,
+          "text": "Agent mode is revolutionary! It can handle complex tasks autonomously. Performance could be better.",
+          "date": "2024-03-01T00:00:00"
+        },
+        {
+          "id": 6,
+          "rating": 3,
+          "text": "Performance issues when working with large codebases. Often causes IDE to freeze.",
+          "date": "2024-07-01T00:00:00"
+        },
+        {
+          "id": 12,
+          "rating": 4,
+          "text": "Performance has improved but still lags compared to other IDEs. Keep up the good work!",
+          "date": "2024-01-01T00:00:00"
+        },
+        {
+          "id": 18,
+          "rating": 4,
+          "text": "The plugin is good but memory usage is too high. Performance optimization needed.",
+          "date": "2024-07-01T00:00:00"
+        },
+        {
+          "id": 23,
+          "rating": 4,
+          "text": "Performance degradation over time. Need to restart IDE frequently.",
+          "date": "2024-12-01T00:00:00"
+        }
+      ],
+      "UX": [
+        {
+          "id": 4,
+          "rating": 4,
+          "text": "Inline chat is useful but the UX needs improvement. Sometimes it's hard to find where to click.",
+          "date": "2024-05-01T00:00:00"
+        },
+        {
+          "id": 10,
+          "rating": 3,
+          "text": "Great tool overall but crashes occasionally. UX could be more intuitive.",
+          "date": "2024-11-01T00:00:00"
+        },
+        {
+          "id": 20,
+          "rating": 4,
+          "text": "Inline chat positioning is awkward. UX improvements needed for better usability.",
+          "date": "2024-09-01T00:00:00"
+        },
+        {
+          "id": 26,
+          "rating": 3,
+          "text": "Chat history gets lost sometimes. UX bug that needs fixing.",
+          "date": "2024-03-01T00:00:00"
+        }
+      ],
+      "Crashes": [
+        {
+          "id": 6,
+          "rating": 3,
+          "text": "Performance issues when working with large codebases. Often causes IDE to freeze.",
+          "date": "2024-07-01T00:00:00"
+        },
+        {
+          "id": 10,
+          "rating": 3,
+          "text": "Great tool overall but crashes occasionally. UX could be more intuitive.",
+          "date": "2024-11-01T00:00:00"
+        }
+      ],
+      "Reliability": [
+        {
+          "id": 14,
+          "rating": 4,
+          "text": "Agent mode is impressive but needs better error handling. Sometimes fails silently.",
+          "date": "2024-03-01T00:00:00"
+        },
+        {
+          "id": 26,
+          "rating": 3,
+          "text": "Chat history gets lost sometimes. UX bug that needs fixing.",
+          "date": "2024-03-01T00:00:00"
+        },
+        {
+          "id": 29,
+          "rating": 3,
+          "text": "Overall excellent but some bugs in the latest version. Code completion still works great.",
+          "date": "2024-06-01T00:00:00"
+        }
+      ]
+    },
+    "feature_parity": {
+      "MCP": [
+        {
+          "id": 3,
+          "rating": 3,
+          "text": "MCP support would be a great addition. Currently missing some features compared to VS Code.",
+          "date": "2024-04-01T00:00:00"
+        }
+      ],
+      "General Negative": [
+        {
+          "id": 7,
+          "rating": 4,
+          "text": "Code completion works well for Python but Java support needs improvement. Feature parity with VS Code needed.",
+          "date": "2024-08-01T00:00:00"
+        },
+        {
+          "id": 13,
+          "rating": 3,
+          "text": "Missing some key features from VS Code version. Feature parity is important.",
+          "date": "2024-02-01T00:00:00"
+        },
+        {
+          "id": 24,
+          "rating": 3,
+          "text": "Feature parity with VS Code extension is crucial. Missing inline chat enhancements.",
+          "date": "2024-01-01T00:00:00"
+        }
+      ],
+      "Custom Instructions": [
+        {
+          "id": 8,
+          "rating": 5,
+          "text": "Love the agent capabilities! Would be great to have custom instructions support.",
+          "date": "2024-09-01T00:00:00"
+        },
+        {
+          "id": 19,
+          "rating": 5,
+          "text": "Custom instructions would make this perfect. Otherwise great code completion.",
+          "date": "2024-08-01T00:00:00"
+        }
+      ],
+      "Model Support": [
+        {
+          "id": 9,
+          "rating": 4,
+          "text": "The chat is helpful but model selection is limited. Need more model options.",
+          "date": "2024-10-01T00:00:00"
+        },
+        {
+          "id": 21,
+          "rating": 5,
+          "text": "Model support is limited. Would love GPT-4 or Claude integration.",
+          "date": "2024-10-01T00:00:00"
+        }
+      ],
+      "NES": [
+        {
+          "id": 11,
+          "rating": 5,
+          "text": "Inline suggestions are excellent for JavaScript. Would like to see NES integration.",
+          "date": "2024-12-01T00:00:00"
+        },
+        {
+          "id": 27,
+          "rating": 5,
+          "text": "Would love NES (New Ecosystem Support) for better integration with JetBrains tools.",
+          "date": "2024-04-01T00:00:00"
+        }
+      ]
+    }
+  },
+  "statistics": {
+    "star_distribution": {
+      "1": 0,
+      "2": 0,
+      "3": 10,
+      "4": 11,
+      "5": 9
+    },
+    "monthly_distribution": {
+      "2024-01": 3,
+      "2024-02": 3,
+      "2024-03": 3,
+      "2024-04": 3,
+      "2024-05": 3,
+      "2024-06": 3,
+      "2024-07": 2,
+      "2024-08": 2,
+      "2024-09": 2,
+      "2024-10": 2,
+      "2024-11": 2,
+      "2024-12": 2
+    },
+    "feature_distribution": {
+      "Code Completion": 7,
+      "Chat/Edit": 7,
+      "MCP": 2,
+      "Security": 3,
+      "Others": 8,
+      "Agent": 3
+    }
+  }
+}

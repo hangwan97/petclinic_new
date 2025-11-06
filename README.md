@@ -31,6 +31,35 @@ This will create:
 - `charts/individual_points_line_chart.png` - The line chart visualization
 - `charts/point_tracking_data.json` - Raw data used for chart generation
 
+## JetBrains Plugin Reviews Analysis
+
+This repository includes a comprehensive analysis tool for JetBrains GitHub Copilot plugin reviews. The analyzer fetches, categorizes, and visualizes customer feedback.
+
+### Features
+
+- Automated web scraping of reviews from JetBrains plugin marketplace
+- Smart categorization into features, bugs, and feature parity requests
+- Multiple visualizations (monthly trends, feature distribution, star ratings)
+- Comprehensive markdown and JSON reports
+
+### Running the Analysis
+
+```bash
+cd petclinic_new
+python3 scripts/analyze_jetbrains_reviews.py
+```
+
+### Output
+
+The analysis generates files in the `jetbrains_view/` directory:
+- `review_summary.md` - Comprehensive report with analysis and visualizations
+- `review_data.json` - Structured data for further processing
+- `comments_by_month.png` - Time series chart of review volume
+- `comments_by_feature.png` - Feature distribution pie chart
+- `star_distribution.png` - Rating distribution bar chart
+
+For more details, see [scripts/README_JETBRAINS_ANALYZER.md](scripts/README_JETBRAINS_ANALYZER.md).
+
 ## Understanding the Spring Petclinic application with a few diagrams
 
 [See the presentation here](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
