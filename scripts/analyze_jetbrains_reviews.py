@@ -75,7 +75,7 @@ class JetBrainsReviewAnalyzer:
                         print("Clicked popup button")
                         time.sleep(2)
                         break
-                    except:
+                    except Exception:
                         continue
             except Exception as e:
                 print(f"No popup found or error handling popup: {e}")
@@ -137,8 +137,12 @@ class JetBrainsReviewAnalyzer:
             try:
                 rating_elem = element.find_element(By.CSS_SELECTOR, "[data-test='star-rating']")
                 rating_text = rating_elem.get_attribute("aria-label") or rating_elem.text
-                rating = int(re.search(r'(\d)', rating_text).group(1)) if rating_text else 3
-            except:
+                if rating_text:
+                    match = re.search(r'(\d)', rating_text)
+                    rating = int(match.group(1)) if match else 3
+                else:
+                    rating = 3
+            except Exception:
                 rating = 3
             
             # Extract review text
@@ -239,10 +243,10 @@ class JetBrainsReviewAnalyzer:
         base_date = datetime(2024, 1, 1)
         
         for i, text in enumerate(sample_texts):
-            # Distribute reviews across months
-            month_offset = (i * 10) % 365
-            date = datetime(2024, 1, 1)
-            date = date.replace(month=min(12, (month_offset // 30) + 1))
+            # Distribute reviews across months (spread evenly across the year)
+            # Use modulo 12 to cycle through months
+            month = (i % 12) + 1
+            date = datetime(2024, month, 1)
             
             # Vary ratings based on content sentiment
             rating = 5

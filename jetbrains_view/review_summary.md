@@ -1,12 +1,12 @@
 # JetBrains GitHub Copilot Plugin Reviews Summary
 
-*Generated on: 2025-11-06 07:31:23*
+*Generated on: 2025-11-06 07:36:39*
 
 ## 1. Overview
 
 - **Total Reviews Analyzed**: 30
 - **Average Rating**: 3.97 / 5.0
-- **Date Range**: 2024-01-01 to 2024-10-01
+- **Date Range**: 2024-01-01 to 2024-12-01
 - **Source**: [JetBrains Plugin Page](https://plugins.jetbrains.com/plugin/17718-github-copilot/reviews)
 
 ## 2. Comments Data Visualization
