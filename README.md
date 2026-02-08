@@ -35,6 +35,26 @@ This will create:
 
 [See the presentation here](https://speakerdeck.com/michaelisvy/spring-petclinic-sample-application)
 
+## Prerequisites
+
+Before running the application, ensure you have the following installed:
+
+- **Java 17 or newer** - Required to build and run the Spring Boot application
+- **Maven 3.6+** - For building the project
+- **Python 3.x** (Optional) - Required only if you want to regenerate the point tracking charts
+- **pip** (Optional) - For installing Python dependencies
+
+### Python Dependencies (Optional)
+
+If you want to generate or update the point tracking charts:
+
+```bash
+pip install -r requirements.txt
+```
+
+This will install:
+- matplotlib >= 3.10.0
+
 ## Run Petclinic locally
 
 Spring Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) application built using [Maven](https://spring.io/guides/gs/maven/) or [Gradle](https://spring.io/guides/gs/gradle/). You can build a jar file and run it from the command line (it should work just as well with Java 17 or newer):
@@ -42,7 +62,7 @@ Spring Petclinic is a [Spring Boot](https://spring.io/guides/gs/spring-boot) app
 ```bash
 git clone https://github.com/hangwan97/petclinic_new.git
 cd petclinic_new
-./mvnw package
+mvn package
 java -jar target/*.jar
 ```
 
@@ -55,17 +75,15 @@ You can then access the Petclinic at <http://localhost:8080/>.
 Or you can run it from Maven directly using the Spring Boot Maven plugin. If you do this, it will pick up changes that you make in the project immediately (changes to Java source files require a compile as well - most people use an IDE for this):
 
 ```bash
-./mvnw spring-boot:run
+mvn spring-boot:run
 ```
-
-> NOTE: If you prefer to use Gradle, you can build the app using `./gradlew build` and look for the jar file in `build/libs`.
 
 ## Building a Container
 
 There is no `Dockerfile` in this project. You can build a container image (if you have a docker daemon) using the Spring Boot build plugin:
 
 ```bash
-./mvnw spring-boot:build-image
+mvn spring-boot:build-image
 ```
 
 ## In case you find a bug/suggested improvement for Spring Petclinic
@@ -82,7 +100,7 @@ and it is possible to inspect the content of the database using the `jdbc:h2:mem
 
 You can also use MySQL or PostgreSQL databases. Database settings are located in `application-mysql.properties` and `application-postgres.properties` in the `src/main/resources` directory.
 
-1. Run the application with `./mvnw spring-boot:run -Dspring-boot.run.profiles=mysql` for MySQL or `./mvnw spring-boot:run -Dspring-boot.run.profiles=postgres` for PostgreSQL.
+1. Run the application with `mvn spring-boot:run -Dspring-boot.run.profiles=mysql` for MySQL or `mvn spring-boot:run -Dspring-boot.run.profiles=postgres` for PostgreSQL.
 
 For more details on using these databases, please refer to the documentation.
 
